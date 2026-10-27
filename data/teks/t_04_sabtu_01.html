@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Sabtu, 31 Oktober 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 04</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Ef. 1:18</strong></p>
+      <p class="verse-text"><strong><em>Dan supaya Ia menjadikan mata hatimu terang, agar kamu mengerti pengharapan apakah yang terkandung dalam panggilan-Nya: Betapa kayanya kemuliaan warisan-Nya kepada orang-orang kudus.</em></strong></p>
+      <p class="verse-ref"><strong>Ef. 1:13</strong></p>
+      <p class="verse-text"><strong><em>Di dalam Dia kamu juga — karena kamu telah mendengar firman kebenaran, yaitu Injil keselamatanmu — di dalam Dia kamu juga, ketika kamu percaya, dimeteraikan dengan Roh Kudus, yang dijanjikan-Nya itu.</em></strong></p>
+      <p>Sebagai ahli-ahli waris Allah, kaum beriman adalah sesama pewaris Kristus menurut janji dan pengharapan hayat yang kekal melalui pembenaran oleh kasih karunia Kristus dan kelahiran kembali dalam kebangkitan Kristus, untuk mewarisi Allah Tritunggal sebagai warisan mereka dengan Roh Kudus sebagai jaminan, untuk berbagian bersama seluruh kaum saleh di dalam terang Allah Tritunggal yang terwujud di dalam Kristus sebagai bagian mereka, untuk dimuliakan dengan Kristus, dan untuk mewarisi warisan yang disimpan di surga sebagai suatu pengharapan yang hidup. Ini rampung dalam kaum beriman dijadikan warisan Allah. ... Kata Yunani yang diterjemahkan “ditetapkan sebagai warisan” (dalam Efesus 1:11, TI) berarti “memilih” atau “menentukan dengan membuang undian.” Jadi, klausa ini secara harfiah kita ditetapkan sebagai pusaka. Kita dijadikan warisan untuk mewarisi warisan Allah. Di satu sisi, kita dijadikan warisan Allah (ayat 18) bagi kenikmatan Allah, di sisi lain, kita dijadikan untuk mewarisi Allah sebagai warisan kita (ayat 14) bagi kenikmatan kita. ... Melalui Allah Tritunggal digarapkan ke dalam kita, kita disusun menjadi satu warisan. Sewaktu unsur Allah digarapkan ke dalam diri kita, kita menjadi warisan-Nya secara realitas. Karena itu, kita masih berada dalam proses dijadikan warisan Allah secara penuh. (The Conclusion of the New Testament, hal. 1092)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>Efesus 1:18 menunjukkan bahwa warisan Allah ada di dalam orang-orang kudus. Pertama-tama, Allah menjadikan kita warisan- Nya sebagai milik yang telah Ia peroleh, dan membuat kita berbagian dalam segala ada-Nya Dia, semua yang dimiliki-Nya, serta segala yang telah Ia capai sebagai warisan kita. Pada akhirnya, semua ini menjadi warisan-Nya di dalam orang-orang kudus sampai kekekalan.</p>
+      <p>Warisan Allah ada di dalam dan di antara orang-orang kudus.</p>
+      <p>Kita, orang-orang kudus, adalah warisan Allah. Namun, apa adanya kita secara alamiah tidak dapat menjadi warisan Allah.</p>
+      <p>Allah tidak ingin mewarisi sifat kita, daging kita, atau alamiah kita.</p>
+      <p>Ia damba mewarisi semua yang berasal dari diri-Nya yang telah Ia garapkan ke dalam kita. Karena itu, apa pun yang telah Allah garapkan ke dalam kita dari diri-Nya sendiri menjadi warisan-Nya.</p>
+      <p>Sebagai orang-orang yang merupakan warisan Allah, kita telah dimeteraikan oleh Roh Kudus (ayat 13). ... Karena kita telah dijadikan warisan Allah, pada saat kita diselamatkan, Allah menaruh Roh Kudus-Nya ke dalam kita sebagai meterai untuk menandai kita, menunjukkan bahwa kita milik Allah.</p>
+      <p>Sebenarnya, Roh Kudus itu sendiri adalah meterai itu.</p>
+      <p>Dimeteraikan dengan Roh Kudus berarti Allah telah disalurkan ke dalam diri kita. Karena itu, meterai ini hidup dan bergerak di dalam kita, sebab Roh itu senantiasa memeteraikan kita dengan esensi Allah. Dimeteraikan seperti ini adalah dijenuhi dengan segala adanya Allah. Karena itu, pemeteraian Roh Kudus juga menunjukkan bahwa Allah sedang digarapkan ke dalam kita.</p>
+      <p>Melalui pemeteraian Roh itu, Allah sedang mengerjakan esensi-Nya ke dalam diri kita agar Ia dapat menikmati kita, harta yang telah diperoleh-Nya, sebagai warisan-Nya.</p>
+      <p>Allah sendiri di dalam kita yang menyusun warisan-Nya di antara orang-orang kudus. Di dalam warisan ini terdapat kekayaan kemuliaan Allah. ... Kaum beriman menjadi berharga bagi-Nya melalui dijenuhi oleh esensi ilahi. ... Kini, Allah yang mustika dan tak tertandingi ini sedang mengerjakan diri-Nya ke dalam diri kita untuk menjadikan kita warisan-Nya yang mulia.</p>
+      <p>Ketika Yerusalem Baru tiba, kita akan melihat bahwa itu akan sepenuhnya menjadi warisan yang berharga, bersinar dengan kemuliaan Allah.</p>
+      <p>Setelah diselamatkan, kita adalah anak-anak Allah, putra-putra Allah, orang-orang yang berbagian dalam sifat ilahi, dan ahli-ahli waris Allah. Sebagai ahli-ahli waris Allah, kita menikmati Dia sebagai warisan kita, dan kita menjadi warisan-Nya bagi kenikmatan-Nya. Karena itu, kenikmatan kita akan warisan ilahi ini rampung ketika kita dijadikan warisan Allah. Kita menikmati Allah. Kemudian kenikmatan kita akan Dia menjadikan kita kenikmatan-Nya. (The Conclusion of the New Testament, hal. 1092- 1094)</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

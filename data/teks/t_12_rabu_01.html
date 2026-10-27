@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Rabu, 23 Desember 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 12</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Yak. 5:7</strong></p>
+      <p class="verse-text"><strong><em>Karena itu, Saudara-saudara, bersabarlah sampai kedatangan Tuhan! Sesungguhnya petani menantikan hasil yang berharga dari tanahnya dan ia sabar sampai telah turun hujan musim gugur dan hujan musim semi.</em></strong></p>
+      <p class="verse-ref"><strong>Gal. 4:19</strong></p>
+      <p class="verse-text"><strong><em>Hai anak-anakku, karena kamu aku menderita sakit bersalin lagi, sampai rupa Kristus menjadi nyata di dalam kamu.</em></strong></p>
+      <p>Tuhan Yesus sesungguhnya adalah Petani yang sejati, Petani yang unik. Ketika kita menantikan kedatangan-Nya, Ia, sebagai Petani yang sejati, menantikan kematangan kita. Mungkin kita berdoa, “Tuhan, kembalilah segera.” Akan tetapi, boleh jadi Ia berkata, “Anak-Ku, cepat cepatlah matang. Sementara engkau menantikan kedatangan-Ku kembali, — Aku menantikan kematanganmu. ... Hanya kematanganmulah yang bisa mempercepat kedatangan-Ku kembali. Engkau melatih panjang sabarmu, dan Aku melatih panjang sabar-Ku.” (Pelajaran-Hayat Yakobus, hal. 141)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>Sangatlah membantu, bila kita menyadari bahwa jika kita serius menunggu kedatangan Tuhan kembali, kita perlu bertumbuh dalam hayat. Kebanyakan orang Kristen hari ini memandang kedatangan Tuhan hanya secara objektif, menganggapnya tidak ada hubungannya dengan kondisi rohani atau pertumbuhan rohani kita. Mereka berharap suatu hari Tuhan akan datang dengan tiba-tiba, dan kedatangan-Nya tidak ada sangkut pautnya dengan kematangan mereka.</p>
+      <p>Ilustrasi petani dalam 5:7 menyiratkan petani itu sedang menunggu hasil ladangnya siap dituai. Menurut Wahyu 14, Tuhan juga menunggu untuk panenannya matang. ... Panenan ini merupakan hasil dari penaburan diri Tuhan sebagai benih.</p>
+      <p>Penaburan Tuhan telah tergenap pada kedatangan Tuhan kali pertama, dan digambarkan dalam Matius 13. Kita perlu menyadari bahwa matangnya panenan akan mempercepat kedatangan Tuhan kembali.</p>
+      <p>Sewaktu kita dianiaya, kita perlu panjang sabar. Jadi, panjang sabar ini merupakan suatu ekspresi dari sikap sabar kita terhadap orang. Para nabi dianiaya, tetapi mereka panjang sabar terhadap penganiaya-penganiaya mereka. Sebaliknya, kesabaran merupakan suatu ekspresi kesabaran kita terhadap perkara yang menimpa kita. Karena itu, sewaktu Ayub menerima kesusahan, ia memperlihatkan kesabarannya.</p>
+      <p>Dalam tulisannya, Yakobus memakai kata-kata Yunani untuk panjang sabar dan ketabahan. Sementara kita menantikan kedatangan Tuhan kembali, kita memerlukan panjang sabar dan ketabahan, karena kita menghadapi penderitaan dari dua sumber.</p>
+      <p>Sumber-sumber ini adalah orang-orang yang menganiaya kita dan lingkungan yang menyengsarakan kita.</p>
+      <p>Untuk kedatangan Tuhan kembali, kita memerlukan panjang sabar, ketabahan, dan pertumbuhan hayat. Sewaktu kita menerapkan panjang sabar terhadap mereka yang menganiaya kita dan ketabahan terhadap berbagai kesengsaraan, kita perlu bertumbuh dalam hayat. Setelah itu barulah kita dapat berkata, “O Tuhan Yesus, kembalilah segera. Tuhan, tidakkah Engkau melihat bahwa hayatku telah bertumbuh? Hari ini aku bertumbuh lebih pesat daripada kemarin. Karena aku bertumbuh, Tuhan, aku mohon Engkau mempercepat kembali-Mu.”</p>
+      <p>Jika kita memenuhi syarat pertumbuhan hayat, Tuhan akan memenuhi janji-Nya untuk segera datang kembali. Karena itu, kita perlu bertumbuh dalam hayat, dan sambil bertumbuh, kita melatih panjang sabar dan ketabahan. Inilah cara yang tepat untuk menunggu kedatangan Tuhan kembali. (Pelajaran-hayat Yakobus, hal. 141-144) Kita semua tahu bahwa tujuan keselamatan Allah adalah untuk bekerja di dalam kita sehingga kita bisa memiliki gambar-Nya (Rm. 8:29). ... Menjadi matang adalah memiliki Tuhan sepenuhnya terbentuk di dalam kita. Ini juga berarti kita, yang telah diselamatkan, telah sepenuhnya ditransformasi ke dalam gambar Tuhan. ... Melalui keselamatan Tuhan, Tuhan telah menambahkan diri-Nya ke dalam kita. Sejak saat kelahiran kembali dan keselamatan kita, Tuhan telah menambahkan diri-Nya ke dalam kita, menyebabkan kita memiliki hayat dan sifat-Nya. Dengan kata lain, sejak waktu keselamatan kita, Tuhan telah bekerja di dalam kita sehingga kita bisa memiliki gambar-Nya. Ketika Tuhan telah sepenuhnya mengerjakan gambar-Nya ke dalam kita dan sepenuhnya diekspresikan dari dalam kita, maka kita akan matang dalam hayat. (CWWL, 1955, vol. 3, “The Way for a Christian to Mature in Life,” hal. 295-296)</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

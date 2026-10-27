@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyegaran Pagi - Minggu 2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body { color: #000000; }
+        .header-title {
+            text-align: right;
+            margin-bottom: 5px;
+            color: #000000;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .date-line {
+            text-align: right;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #8c6239;
+            padding-bottom: 8px;
+            font-weight: bold;
+            color: #000000;
+        }
+        .btn-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .action-btn {
+            background-color: #d1fae5;
+            color: #000000;
+            border: none;
+            padding: 8px 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-family: inherit;
+            transition: background-color 0.2s ease;
+        }
+        .action-btn:hover {
+            background-color: #d1fae5;
+        }
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        details {
+            background-color: #d1fae5;
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.15);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        details[open] {
+            box-shadow: 0 4px 10px rgba(74, 44, 17, 0.25);
+        }
+        summary {
+            font-size: 1.1em;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            padding: 12px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            outline: none;
+        }
+        summary:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+        }
+        summary::after {
+            content: "▼";
+            font-size: 0.8em;
+            color: #000000;
+            transition: transform 0.3s ease;
+        }
+        details[open] summary::after {
+            transform: rotate(180deg);
+        }
+        .content {
+            padding: 16px 20px;
+            text-align: justify;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .verse-ref {
+            color: #000000;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class=\"mobile-container\">
+
+    <div class="header-title">📍 Penyegaran Pagi</div>
+
+    <div class="date-line">Minggu, 11 Oktober 2026 — MINGGU 2: GARIS BESAR</div>
+
+    <div class="btn-container">
+        <button class="action-btn" onclick="openAll()">Buka Semua Hari</button>
+        <button class="action-btn" onclick="closeAll()">Tutup Semua Hari</button>
+    </div>
+
+    <!-- HARI 1 -->
+    <details>
+        <summary>▸ HARI 1 (SENIN)</summary>
+        <div class="content">
+            <p><strong>I. Hayat kekal adalah hayat Allah dengan sifat ilahi:</strong></p>
+            <ul>
+                <li><strong>A. Hayat kekal, hayat Allah:</strong>
+                    <ol type="1">
+                        <li><strong>Mendapatkan hayat kekal di zaman ini:</strong>
+                            <ol type="a">
+                                <li>Hayat kekal adalah hayat Allah <span class="verse-ref">— (1 Yoh. 1:1-2)</span></li>
+                                <li>Hayat kekal ada di dalam Tuhan Yesus <span class="verse-ref">— (1 Yoh. 5:11-12; Yoh. 1:4)</span></li>
+                                <li>Hayat kekal diberikan dengan cuma-cuma oleh Allah <span class="verse-ref">— (Rm. 6:23; 1 Yoh. 5:11)</span></li>
+                                <li>Hayat kekal didapatkan pada saat percaya <span class="verse-ref">— (Yoh. 3:16, 36; 5:24)</span></li>
+                                <li>Hayat kekal diketahui di zaman ini <span class="verse-ref">— (1 Yoh. 5:13)</span></li>
+                                <li>Memiliki hayat kekal dan tidak binasa <span class="verse-ref">— (Yoh. 10:28-29)</span></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- HARI 2 -->
+    <details>
+        <summary>▸ HARI 2 (SELASA)</summary>
+        <div class="content">
+            <ul>
+                <li style="list-style-type: none;">
+                    <ol type="1" start="2">
+                        <li><strong>Mendapatkan hayat kekal di zaman yang akan datang:</strong>
+                            <ol type="a">
+                                <li><em>“Setiap orang yang karena Aku dan karena Injil meninggalkan ... orang itu pada zaman ini juga akan menerima kembali seratus kali lipat ... dan pada zaman yang akan datang ia akan menerima hidup yang kekal”</em> <span class="verse-ref">— (Mrk. 10:29-30)</span></li>
+                                <li><em>“Hendaklah engkau setia sampai mati, dan Aku akan mengaruniakan kepadamu mahkota kehidupan”</em> <span class="verse-ref">— (Why. 2:10)</span></li>
+                                <li><em>“Siapa yang menang, dia akan Kuberi makan dari pohon kehidupan yang ada di Taman Firdaus Allah”</em> <span class="verse-ref">— (Why. 2:7)</span></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- HARI 3 -->
+    <details>
+        <summary>▸ HARI 3 (RABU)</summary>
+        <div class="content">
+            <ul>
+                <li style="list-style-type: none;">
+                    <ol type="1" start="3">
+                        <li><strong>Menikmati hayat kekal dalam kekekalan:</strong>
+                            <ol type="a">
+                                <li><em>“Air yang akan Kuberikan kepadanya, akan menjadi mata air di dalam dirinya, yang terus-menerus memancar sampai pada hidup yang kekal”</em> <span class="verse-ref">— (Yoh. 4:14)</span></li>
+                                <li><em>“Orang yang haus akan Kuberi minum dengan cuma-cuma dari mata air kehidupan”</em> <span class="verse-ref">— (Why. 21:6)</span></li>
+                                <li><em>“Mereka akan memperoleh hak atas pohon kehidupan”</em> <span class="verse-ref">— (Why. 22:14)</span></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+                <li><strong>B. Hayat Allah dengan sifat ilahi:</strong>
+                    <ol type="1">
+                        <li>Sebagai orang yang telah menerima iman yang sama berharganya, kita, kaum beriman dalam Kristus, harus menjadi orang-orang yang berbagian akan sifat ilahi <span class="verse-ref">— (2 Ptr. 1:4)</span>:
+                            <ol type="a">
+                                <li>Sifat ilahi mengacu kepada apa adanya Allah, yaitu kekayaan, unsur-unsur, dan penyusun-penyusun diri Allah <span class="verse-ref">— (Yoh. 4:24; 1 Yoh. 1:5; 4:8, 16)</span></li>
+                                <li>Hayat ilahi dan sifat ilahi tidak terpisahkan; sifat ilahi adalah substansi dari hayat ilahi dan ada di dalam hayat ilahi <span class="verse-ref">— (1 Yoh. 1:1-2; 5:11-13)</span></li>
+                                <li>Kita perlu mengalami perkembangan dari hayat ilahi dan sifat ilahi yang terkandung dalam benih ilahi yang telah ditaburkan ke dalam kita sehingga kita bisa memiliki jalan masuk yang kaya ke dalam kerajaan kekal <span class="verse-ref">— (2 Ptr. 1:1, 4-11)</span></li>
+                                <li>Sebagai anak-anak Allah, kita adalah manusia-manusia-Allah, dilahirkan dari Allah, memiliki hayat dan sifat Allah, dan termasuk spesies Allah <span class="verse-ref">— (Yoh. 1:12-13)</span></li>
+                                <li>Pada saat kelahiran kembali kita, sifat yang lain telah ditambahkan ke dalam kita: ini adalah sifat Allah, sifat ilahi <span class="verse-ref">— (2 Ptr. 1:4)</span></li>
+                                <li>Seorang yang berbagian akan sifat ilahi adalah seorang yang menikmati sifat ilahi dan berpartisipasi dalam sifat ilahi <span class="verse-ref">— (2 Ptr. 1:4)</span></li>
+                                <li>Jika kita menikmati Allah dan berbagian akan kekayaan diri-Nya, kita akan disusun dengan sifat ilahi, menjadi serupa dengan Allah dalam hayat dan sifat tetapi bukan dalam ke-Allahan, dan mengekspresikan Dia dalam segala adanya kita dan yang kita lakukan <span class="verse-ref">— (2 Ptr. 1:3)</span></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- HARI 4 -->
+    <details>
+        <summary>▸ HARI 4 (KAMIS)</summary>
+        <div class="content">
+            <p><strong>II. Allah Tritunggal adalah struktur Perjanjian Baru:</strong></p>
+            <ul>
+                <li><strong>A.</strong> <em>“Tetapi jika Aku mengusir setan dengan kuasa Roh Allah, maka sesungguhnya Kerajaan Allah sudah datang kepadamu”</em> <span class="verse-ref">— (Mat. 12:28)</span></li>
+                <li><strong>B.</strong> <em>“Jadikanlah semua bangsa murid-Ku dan baptislah mereka dalam nama Bapa dan Anak dan Roh Kudus”</em> <span class="verse-ref">— (Mat. 28:19)</span></li>
+                <li><strong>C.</strong> <em>“Tetapi Penolong, yaitu Roh Kudus, yang akan diutus oleh Bapa dalam nama-Ku, Dialah yang akan mengajarkan segala sesuatu kepadamu dan akan mengingatkan kamu akan semua yang telah Kukatakan kepadamu”</em> <span class="verse-ref">— (Yoh. 14:26)</span></li>
+                <li><strong>D.</strong> <em>“Jikalau Penolong yang akan Kuutus dari Bapa datang, yaitu Roh Kebenaran yang keluar dari Bapa, Ia akan bersaksi tentang Aku”</em> <span class="verse-ref">— (Yoh. 15:26)</span></li>
+                <li><strong>E.</strong> <em>“Sesudah Ia ditinggikan oleh tangan kanan Allah dan menerima dari Bapa, Roh Kudus yang dijanjikan itu”</em> <span class="verse-ref">— (Kis. 2:33a)</span></li>
+                <li><strong>F.</strong> <em>“Jika Roh Dia, yang telah membangkitkan Yesus dari antara orang mati, tinggal di dalam kamu, maka Ia, yang telah membangkitkan Kristus Yesus dari antara orang mati, akan menghidupkan juga tubuhmu yang fana itu oleh Roh-Nya yang tinggal di dalam kamu”</em> <span class="verse-ref">— (Rm. 8:11)</span></li>
+                <li><strong>G.</strong> <em>“Karena kamu adalah anak, maka Allah telah menyuruh Roh Anak-Nya ke dalam hati kita, yang berseru, 'Ya Abba, ya Bapa!'”</em> <span class="verse-ref">— (Gal. 4:6)</span></li>
+                <li><strong>H.</strong> <em>“Aku berdoa supaya Ia, menurut kekayaan kemuliaan-Nya, menguatkan kamu dengan kuasa melalui Roh-Nya di dalam batinmu, sehingga oleh imanmu Kristus tinggal di dalam hatimu”</em> <span class="verse-ref">— (Ef. 3:16-17a)</span></li>
+                <li><strong>I.</strong> <em>“Satu Roh ... satu Tuhan ... satu Allah dan Bapa”</em> <span class="verse-ref">— (Ef. 4:4-6)</span></li>
+                <li><strong>J.</strong> <em>“Terlebih lagi darah Kristus, yang melalui Roh yang kekal telah mempersembahkan diri-Nya sendiri kepada Allah sebagai persembahan yang tidak bercacat, akan menyucikan hati nurani kita dari perbuatan-perbuatan yang sia-sia, supaya kita dapat beribadah kepada Allah yang hidup”</em> <span class="verse-ref">— (Ibr. 9:14)</span></li>
+                <li><strong>K.</strong> <em>“Yaitu orang-orang yang dipilih, sesuai dengan rencana Allah, Bapa kita, dan yang dikuduskan oleh Roh, supaya taat kepada Yesus Kristus dan menerima percikan darah-Nya”</em> <span class="verse-ref">— (1 Ptr. 1:2)</span></li>
+                <li><strong>L.</strong> <em>“Anugerah dan damai sejahtera menyertai kamu, dari Dia, yang ada dan yang sudah ada dan yang akan datang, dan dari ketujuh roh yang ada di hadapan takhta-Nya, dan dari Yesus Kristus, Saksi yang setia, yang pertama bangkit dari antara orang mati dan yang berkuasa atas raja-raja bumi ini”</em> <span class="verse-ref">— (Why. 1:4b-5a)</span></li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- HARI 5 -->
+    <details>
+        <summary>▸ HARI 5 (JUMAT)</summary>
+        <div class="content">
+            <p><strong>III. Allah adalah Allah yang menyembunyikan diri-Nya — Allah yang tersembunyi:</strong></p>
+            <ul>
+                <li><strong>A.</strong> <em>“Sungguh, Engkau Allah yang menyembunyikan diri, Allah Israel, Juru Selamat”</em> <span class="verse-ref">— (Yes. 45:15)</span></li>
+                <li><strong>B.</strong> Meskipun Allah kita ada di mana-mana, Maha Kuasa, dan penuh pengampunan, Dia juga adalah Allah yang bersembunyi, seperti yang ditunjukkan oleh Kitab Ester <span class="verse-ref">— (Est. 4:14)</span></li>
+                <li><strong>C.</strong> Allah menciptakan alam semesta dan kemudian menyembunyikan diri-Nya di dalamnya, sampai kita tidak tahu di mana bisa menemukan Dia <span class="verse-ref">— (Ayb. 23:3)</span></li>
+                <li><strong>D.</strong> Allah melakukan banyak hal di tengah-tengah bangsa Israel dan banyak hal dalam kehidupan pribadi mereka, namun Dia menyembunyikan diri-Nya; Dia bekerja tanpa henti, namun Dia selalu tersembunyi <span class="verse-ref">— (Yes. 45:15)</span></li>
+                <li><strong>E.</strong> Kita perlu menyadari bahwa Allah yang Maha Kuasa yang kita layani masih menyembunyikan diri-Nya, terutama ketika Dia membantu kita <span class="verse-ref">— (Yoh. 14:26; Rm. 8:28)</span></li>
+                <li><strong>F.</strong> Allah yang menyembunyikan diri-Nya beroperasi di dalam kita dengan diam namun penuh kuasa <span class="verse-ref">— (Flp. 2:13)</span></li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- HARI 6 -->
+    <details>
+        <summary>▸ HARI 6 (SABTU)</summary>
+        <div class="content">
+            <p><strong>IV. Makna perumpamaan dalam Lukas 18:1-8 itu sangat dalam, dan kita perlu mengenal Allah sebagaimana Dia diwahyukan, sebagai Allah yang tersembunyi:</strong></p>
+            <ul>
+                <li><strong>1.</strong> Janda dalam ayat 3 menandakan kaum beriman; di satu sisi, kaum beriman dalam Kristus adalah janda di zaman ini karena Suami mereka, Kristus, kelihatannya tidak bersama mereka <span class="verse-ref">— (2 Kor. 11:2)</span></li>
+                <li><strong>2.</strong> Janda dalam perumpamaan itu terus datang kepada hakim yang tidak jujur itu dan meminta hakim itu untuk membelanya terhadap lawannya; kita harus berdoa dengan tekun untuk pembelaan ini dan jangan putus asa <span class="verse-ref">— (Luk. 18:1, 3)</span>:
+                    <ol type="a">
+                        <li>Ketika Suami kita kelihatannya tidak ada dan kita tertinggal di bumi sebagai janda, untuk sementara Allah kita terlihat sebagai hakim yang tidak jujur <span class="verse-ref">— (Luk. 18:6)</span></li>
+                        <li>Meskipun Dia kelihatannya tidak jujur, kita masih harus memohon kepada-Nya, berdoa dengan tekun, dan mengganggu Dia berulang-ulang, agar Dia segera membela umat pilihan-Nya, yang <em>“siang malam berseru kepada-Nya”</em> <span class="verse-ref">— (Luk. 18:7-8a)</span></li>
+                    </ol>
+                </li>
+                <li><strong>3.</strong> <em>“Jika Anak Manusia itu datang, apakah Ia akan mendapati iman di bumi?”</em> <span class="verse-ref">— (Luk. 18:8b)</span>:
+                    <ol type="a">
+                        <li>Secara harfiah, kata Yunani yang diterjemahkan “iman” berarti “iman itu”: ini mengacu kepada iman yang gigih, sungguh-sungguh, bagi doa kita yang tekun, seperti doa janda itu.</li>
+                        <li>Iman yang melaluinya kita diselamatkan adalah tahap awal dari iman; iman yang membawa kita ke dalam kesatuan hayat dengan Kristus adalah iman yang menghubungkan—iman yang masuk ke dalam kita melalui kita mengontak Allah Tritunggal senantiasa sehingga kita bisa hidup oleh Putra Allah <span class="verse-ref">— (Rm. 1:17; Gal. 2:20; Yoh. 14:19)</span></li>
+                        <li>Iman yang menghubungkan adalah tuntutan ilahi bagi para pemenang untuk berjumpa dengan Kristus saat kembali-Nya yang berkemenangan <span class="verse-ref">— (Luk. 18:8b)</span>:
+                            <ol type="1">
+                                <li>Iman yang menghubungkan adalah Allah Tritunggal bergerak di dalam kita untuk menghubungkan kita dengan kekayaan-Nya yang tidak terduga <span class="verse-ref">— (Ef. 3:8)</span></li>
+                                <li>Iman yang menghubungkan adalah iman kaum beriman yang tidak percaya pada diri sendiri; sebaliknya, kepercayaan mereka adalah pada Allah <span class="verse-ref">— (2 Kor. 1:9)</span></li>
+                                <li>Ketika Tuhan Yesus datang kembali, Dia akan menemukan sejumlah pemenang yang hidup oleh iman yang menghubungkan dan akan menghargai mereka sebagai harta bagi kerajaan-Nya dalam seribu tahun pemerintahan-Nya <span class="verse-ref">— (Luk. 18:8b; Why. 20:4, 6)</span></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </details>
+
+    <script>
+        function openAll() {
+            document.querySelectorAll('details').forEach(el => el.open = true);
+        }
+        function closeAll() {
+            document.querySelectorAll('details').forEach(el => el.open = false);
+        }
+    </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Kamis, 3 Desember 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 09</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Why. 3:8</strong></p>
+      <p class="verse-text"><strong><em>... Kekuatanmu tidak seberapa, namun engkau menuruti firman- Ku dan engkau tidak menyangkal nama-Ku.</em></strong></p>
+      <p class="verse-ref"><strong>Ef. 6:24</strong></p>
+      <p class="verse-text"><strong><em>Anugerah menyertai semua orang, yang mengasihi Tuhan kita Yesus Kristus dengan kasih yang tidak binasa.</em></strong></p>
+      <p>Dalam Wahyu 3:8 Tuhan ... berkata bahwa gereja di Filadelfia tidak menyangkal nama-Nya. ... Firman adalah ekspresi Tuhan, dan nama itu adalah diri Tuhan sendiri. Gereja yang murtad telah menyimpang dari firman Tuhan dan menjadi bidah. Walaupun gereja yang direformasi sedikit banyak sudah dipulihkan kepada firman Tuhan, namun mereka menyangkal nama Tuhan dengan menjadikan diri mereka denominasi-denominasi, mengambil nama- nama lain, misalnya: gereja Luther, gereja Wesley, gereja Anglikan, gereja Prebisterian, dan gereja Baptis. Gereja yang dipulihkan bukan hanya kembali kepada firman Tuhan secara keseluruhan, tetapi juga telah meninggalkan segala nama selain nama Tuhan Yesus Kristus. ... Gereja, sebagai perawan suci yang dipertunangkan kepada Kristus (2 Kor. 11:2), tidak seharusnya memiliki nama lain, selain nama Suaminya. ... Dalam kehidupan gereja yang dipulihkan, tidak ada ajaran Bileam (2:14), tidak ada ajaran Nikolaus (2:15), tidak ada ajaran Izebel (2:20), juga tidak ada seluk-beluk Satan (2:24), hanya ada firman murni Tuhan. ...</p>
+      <p>Penyimpangan dari firman Tuhan kepada berbagai bidah dan meninggikan banyak nama selain nama Kristus adalah tanda yang paling mencolok dari kekristenan yang merosot. Kembali kepada firman yang murni dari segala bidah dan tradisi dan meninggikan nama Tuhan dengan meninggalkan semua nama lain merupakan kesaksian yang paling menjamah orang dalam gereja yang dipulihkan. Inilah sebabnya, gereja dalam pemulihan Tuhan memiliki wahyu dan penyertaan Tuhan, bahkan secara hidup mengekspresikan Tuhan, penuh dengan terang dan kelimpahan hayat. (Pelajaran-Hayat Wahyu, hal. 256-257)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>Gereja di Filadelfia adalah) gereja dalam pemulihan (Why. 3:7- 13). Dalam bahasa Yunani, “Filadelfia” berarti “kasih persaudaraan.” ... Seperti halnya gereja reformasi yang dilambangkan oleh gereja di Sardis adalah reaksi terhadap gereja di Tiatira, demikian pula gereja kasih persaudaraan adalah reaksi terhadap gereja reformasi yang mati. (Pelajaran-Hayat Wahyu, hal. 247) Kita dapat memberi tahu orang baru, “Ketika Anda menyeru nama-Nya, 'O Tuhan Yesus, Anda merasakan sesuatu yang manis di dalam Anda. ... Jika Anda menyeru nama orang yang lain, Anda tidak akan memiliki perasaan seperti ini, tetapi ketika Anda berseru kepada Tuhan Yesus dan berkata, “Yesus, aku cinta pada-Mu,' Anda akan merasakan perbedaannya. Selain itu, semakin dalam, semakin tinggi, dan semakin limpah seruan Anda, perasaan di dalam Anda ini akan semakin diperkuat. Menyeru nama Tuhan akan membuat Anda gembira, bahkan bergejolak. Anda mungkin bahkan melompat kegirangan. Ini membuktikan bahwa Kristus itu riil dan hidup. Ketika Anda menghadapi masalah, pertanyaan, kesulitan, atau kesukaran, Anda bisa berseru, 'O Tuhan Yesus.”</p>
+      <p>Dengan cara ini kita bisa menyampaikan berita kepada orang yang baru dibaptis, membantu dia untuk mengenal Yesus Kristus sebagai Roh yang hidup. Jika kita mengunjungi orang di rumah mereka, membaptis mereka, dan mengajar mereka mengenai Yesus dengan cara ini, kita akan benar-benar dibangunkan.</p>
+      <p>Selain itu, kebangunan ini adalah di dalam kasih. Frasa di dalam kasih digunakan enam kali dalam Kitab Efesus (1:4: 3:17, 4:2, 15-16, 5:2). Ini adalah kasih yang awalnya ada di dalam Allah, yang menjadi kasih Kristus dan di dalam Kristus, dan yang telah ditransfusikan ke dalam kita untuk menjadi kasih kita terhadap- Nya. Kasih Allah bukan kasih yang diam. Sebaliknya, ini adalah kasih yang beroperasi, bekerja di dalam kita untuk membangkitkan kita untuk mengasihi Dia. ... Allah terlebih dahulu mengasihi kita melalui Dia menginfus kita dengan kasih-Nya dan menimbulkan di dalam kita kasih yang dengannya kita mengasihi Dia dan saudara- saudara (1 Yoh. 4:19-21). Kita mengasihi Tuhan bukan hanya karena Dia mengasihi kita tetapi juga karena tujuan kekal, kesenangan hati, dan perkenan-Nya. Kita mengasihi Yesus karena Dia memiliki rencana untuk mendapatkan gereja sebagai Tubuh- Nya. Kasih kita hari ini lebih tinggi, lebih dalam, dan lebih kaya daripada kasih yang kita miliki di masa lalu. Sebelumnya, kita mengasihi Yesus dengan kasih yang egois, tetapi sekarang kita mengasihi Dia karena Dia telah memberikan rasul-rasul, nabi-nabi, penginjil-penginjil, dan gembala-gembala serta pengajar-pengajar untuk memperlengkapi semua orang kudus untuk melakukan apa yang mereka lakukan. (CWWL, 1988, vol. 1, hal. 495)</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

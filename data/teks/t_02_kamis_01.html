@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Kamis, 15 Oktober 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 02</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Yoh. 14:16-17</strong></p>
+      <p class="verse-text"><strong><em>Aku akan minta kepada Bapa, dan Ia akan memberikan kepadamu seorang Penolong yang lain, supaya Ia menyertai kamu selama-lamanya, yaitu Roh Kebenaran... .</em></strong></p>
+      <p class="verse-ref"><strong>Yoh. 14:26</strong></p>
+      <p class="verse-text"><strong><em>Tetapi Penolong, yaitu Roh Kudus, yang akan diutus oleh Bapa dalam nama-Ku, Dialah yang akan mengajarkan segala sesuatu kepadamu dan akan mengingatkan kamu akan semua yang telah Kukatakan kepadamu.</em></strong></p>
+      <p>Menurut wahyu Alkitab, Roh yang berhuni di dalam kita memiliki enam fungsi utama berikut: Pertama, Roh itu masuk ke dalam kita sebagai Roh esensial bagi keberadaan, diri, hayat, dan kehidupan kita. Dia adalah perampungan ultima dari Allah Tritunggal yang telah melalui proses, Roh pemberi-hayat, Kristus menjadi Roh pemberi-hayat dalam kebangkitan (1 Kor. 15:45). Roh ini masuk ke dalam kita yang telah percaya dalam Kristus (Yoh. 20:22) dan hidup di dalam kita untuk menjadi esensi dari hayat, sifat, dan diri ilahi di dalam kita.</p>
+      <p>IKeduaJ, Roh itu masuk ke dalam kita sebagai Roh hayat (Rm. 8:2). Hayat adalah isi dari Trinitas Ilahi. Ketika Roh hayat masuk ke dalam kita, Dia membagikan hayat kekal Allah ke dalam kita untuk menjadi hayat kita ... (sampai| Roh hayat memenuhi seluruh diri kita, termasuk roh, jiwa, dan tubuh kita, menguduskan kita dan menyerupakan kita kepada gambar Putra sulung Allah (ayat 29) sehingga kita bisa menjadi banyak putra Allah untuk menjadi ekspresi korporat-Nya. (Truth Lessons—Level One, vol. 4, hal. 56-57)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>(Ketigal, Roh Kudus masuk ke dalam kita juga sebagai meterai di dalam kita (Ef. 1:13, 4:30: 2 Kor. 1:22). ... Bahwa kita, kaum beriman, dimeteraikan dengan Roh Kudus berarti kita ditandai dengan Roh Kudus sebagai meterai yang hidup, menunjukkan bahwa kita milik Allah, yaitu, bahwa kita adalah warisan Allah (Ef. 1:11). ... Pemeteraian ini menyebar dari roh kita kepada pikiran, emosi, dan tekad kita bagi pengudusan dan transformasi jiwa kita.</p>
+      <p>Pada akhirnya, bahkan tubuh kita akan sepenuhnya dimeteraikan, yaitu, dijenuhi dan ditransfigurasi: itu akan menjadi penebusan tubuh kita.</p>
+      <p>IKeempat|, Roh Kudus adalah ... juga jaminan dari warisan ilahi (ayat 14: 2 Kor. 1:22b, 5:5b). Dalam ekonomi Allah, kita adalah warisan bagi Allah (Ef. 1:11), dan Allah adalah warisan bagi kita (ayat 14). Allah dan kita saling mewarisi. ... Sebagai meterai, Roh Kudus membentuk unsur-unsur ilahi menjadi satu kesan di dalam kita bagi ekspresi Allah, sebagai jaminan, Dia memberi kita pencicipan sebagai contoh dan garansi akan rasa yang penuh dari Allah.</p>
+      <p>IKelimal, Roh Kudus di dalam kita juga adalah Roh yang berhuni (Rm. 8:9: 1 Kor. 6:19). Dalam 1 Yohanes 14:17 Tuhan Yesus dengan jelas dan pasti berjanji bahwa ketika Roh Kudus itu datang, Dia akan menghuni murid-murid. Kemudian pada malam hari kebangkitan-Nya, Dia datang ke tengah-tengah murid-murid dan diembuskan ke dalam mereka agar mereka bisa menerima Roh Kudus (20:22). ... Roh yang berhuni ... masuk ke dalam kita bukan untuk mengunjungi tetapi berhuni di dalam kita, untuk membuat rumah-Nya di dalam kita, bahkan untuk menguasai seluruh diri kita, agar Dia bisa mewahyukan Allah dan Kristus ke dalam kita dan agar kita bisa menerima dan menikmati segala kekayaan Allah di dalam Kristus.</p>
+      <p>IKeenamJ, Roh yang berhuni di dalam kita juga adalah realitas Kristus. Yohanes 14:16-20 mewahyukan bahwa sang Penghibur yang akan datang adalah perwujudan Kristus. ... Roh yang menghuni kita adalah Kristus yang mati dan bangkit dan yang pa (Dalam ayat 26) sang Penghibur itu adalah Roh Kudus, yang Bapa utus dalam nama Putra. Datang dalam nama Putra adalah datang sebagai Putra. Ini membuktikan bahwa ketika Roh itu datang, Putralah yang datang, dan bahwa ketika Roh itu berhuni di dalam kita, ini adalah Kristus sang Putra yang berhuni di dalam kita.</p>
+      <p>Roh itu menghuni kaum beriman adalah untuk mewahyukan Kristus, memuliakan Kristus, dan menjadikan Kristus riil dalam kaum beriman |16:12-15). ... Segala adanya Allah dan yang Allah miliki terwujud di dalam Kristus (Kol. 2:9: Yoh. 16:15), dan segala adanya Kristus dan yang Kristus miliki diterima oleh Roh itu dan diwahyukan kepada kaum beriman melalui Roh itu (ayat 14-15).</p>
+      <p>Karena itu, ketika Roh itu ada di dalam kita, Kristuslah yang ada di dalam kita. (Truth Lessons—Level One, vol. 4, hal. 57-59)</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Sabtu, 21 November 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 07</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Kol. 1:10</strong></p>
+      <p class="verse-text"><strong><em>Sehingga hidupmu layak di hadapan-Nya serta berkenan kepada-Nya dalam segala hal, dan kamu memberi buah dalam segala pekerjaan yang baik dan bertumbuh dalam pengetahuan tentang Allah.</em></strong></p>
+      <p class="verse-ref"><strong>Yoh. 21:15</strong></p>
+      <p class="verse-text"><strong><em>.. Yesus berkata kepada Simon Petrus, “Simon, anak Yohanes, apakah engkau mengasihi Aku lebih daripada mereka ini?”</em></strong></p>
+      <p>Jawab Petrus kepada-Nya, “Benar Tuhan, Engkau tahu bahwa aku mengasihi Engkau.” Kata Yesus kepadanya, “Peliharalah anak-anak domba-Ku.”</p>
+      <p>Suatu hidup yang layak di hadapan Tuhan berarti berkenan kepada-Nya dalam segala hal (Kol. 1:10), yaitu diperkenan Tuhan dalam segala hal. Allah Bapa berkenan kepada Putra (Mat. 3:17, 17:5). Dalam Galatia 1:15-16 Paulus berkata bahwa Allah berkenan mewahyukan Kristus, Putra-Nya, di dalam Paulus. Tidak ada hal yang lebih diperkenan Allah Bapa daripada kita memperhidupkan Kristus. Di luar Kristus tidak ada hal yang dapat berkenan kepada Bapa.</p>
+      <p>Satu-satunya saat kita benar-benar bersukacita ialah ketika kita memperhidupkan Kristus. Jika kita rendah hati atau lemah lembut secara alamiah, kita tidak merasa sukacita. Tetapi jika kita menerima Kristus sebagai hayat dan persona kita, dan memperhidupkan Dia, kita akan menjadi orang yang paling bersukacita di bumi. ... Hal yang paling menyenangkan ialah memperhidupkan Kristus, menikmati Kristus, dan mengalami Kristus.</p>
+      <p>Jika hidup kita layak di hadapan Tuhan, kita akan berbuah dalam segala pekerjaan yang baik. ... Berbuah (dalam Kolose 1:10) mengacu kepada memperhidupkan Kristus, mempertumbuhkan Kristus, mengekspresikan Kristus, dan menghasilkan Kristus dalam setiap hal. Inilah pekerjaan baik yang tersirat dalam pikiran Paulus. (Pelajaran-Hayat Kolose, hal. 31)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>Dalam Yohanes 21, Tuhan bertanya kepada Petrus apakah Petrus mengasihi Tuhan. Petrus menjawab kepada Tuhan, “Engkau tahu bahwa aku mengasihi Engkau” Kemudian Tuhan menjawab, “Peliharalah anak-anak domba-Ku,” dan “Peliharalah domba-domba- Ku" (ayat 15, 17). Berbicara bukan hanya untuk mendidik atau mengajar, tetapi juga untuk memberi makan anak-anak domba dan memberi makan domba-domba. Jika kita hendak memberi makan domba-domba Tuhan, kita harus berbicara ... Untuk memberi makan domba-domba Tuhan, kita harus mengasihi Dia. ... Semakin kita mengasihi Dia, semakin kita memenuhi syarat, diperlengkapi, dan bahkan disempurnakan untuk berbicara.</p>
+      <p>Suatu hari, seorang wanita muda datang ke kampung halaman saya. Saat itu saya berusia sembilan belas tahun, dan dia dua puluh lima tahun. Itu lebih dari enam puluh tahun yang lalu di Tiongkok daratan yang konservatif. Bagi seorang wanita muda untuk berbicara di hadapan seribu orang adalah peristiwa yang unik dan tidak biasa. Meskipun saya sudah sering menghadiri sidang-sidang Kristen, saya pergi ke sidang ini dengan keingintahuan untuk melihat wanita muda itu berbicara. Sepanjang hidup saya, bahkan hingga hari ini, saya belum pernah mendengar seseorang berbicara dengan otoritas sebesar itu. ... Saat saya mendengarkan dia, seluruh keingintahuan saya lenyap. Setiap kata yang diucapkannya menyentuh hati saya, dan saya sepenuhnya diinsyafkan. Saya adalah seorang muda yang dibesarkan dalam kekristenan, tetapi hari itu saya diinsyafkan dan ditangkap oleh Tuhan. Setelah sidang itu, saat saya berjalan pulang, saya berdoa dan menyerahkan seluruh hidup saya kepada Tuhan.</p>
+      <p>Wanita muda itu, yang baru berusia dua puluh lima tahun, mengasihi Tuhan sampai puncaknya. Itulah motifnya. Kasihnya kepada Tuhan adalah faktor, unsur, dan esensi paling mendasar dari kuasanya. Berita yang ia sampaikan diambil dari Kitab Keluaran. Ia mengatakan kepada hadirin bahwa Mesir melambangkan dunia dan bahwa semua orang dunia berada di bawah perbudakan Satan, sama seperti bangsa Israel berada di bawah perbudakan Firaun. Ia berkata bahwa kita harus dibebaskan dari perbudakan ini dan bahwa inilah keluaran kita.</p>
+      <p>Ketika saya mendengar hal ini di awal beritanya, saya berkata dalam hati bahwa saya tidak akan berada di bawah perbudakan Satan lagi. Karena saudari muda ini mengasihi Tuhan sampai puncaknya, ia memiliki otoritas Tuhan, dan dampaknya terlihat dalam pemberitaan Injilnya.</p>
+      <p>Jika kita mengasihi Tuhan, kita pasti akan dipenuhi oleh-Nya.</p>
+      <p>Apa pun yang memenuhi kita akan keluar dari diri kita. Luapan itu berasal dari pemenuhan. ... Sejak hari itu pada tahun 1925 ketika saya menyerahkan hidup saya kepada Tuhan, saya senang mempelajari Alkitab dan berbicara kepada orang-orang tentang Yesus. Karena saya dipenuhi oleh Tuhan Yesus, saya ingin berbicara tentang Tuhan Yesus. Jika kita dipenuhi oleh Tuhan Yesus, kita tentu akan memiliki sesuatu untuk dicurahkan. ...</p>
+      <p>Ketika kita mengasihi Tuhan sampai puncaknya, kita harus berbicara. Kita harus melepaskan Dia yang telah memenuhi kita di batin. (CWWL, 1988, vol. 1, “Speaking Christ for the Building Up of the Body of Christ,” hal. 172-173)</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

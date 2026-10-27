@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Selasa, 24 November 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 08</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Mat. 4:4</strong></p>
+      <p class="verse-text"><strong><em>Tetapi Yesus menjawab, “Ada tertulis: Manusia hidup bukan dari roti saja, tetapi dari setiap firman yang keluar dari mulut Allah.”</em></strong></p>
+      <p class="verse-ref"><strong>Mat. 3:11</strong></p>
+      <p class="verse-text"><strong><em>Aku membaptis kamu dengan air sebagai tanda pertobatan, tetapi Ia yang datang kemudian setelah aku lebih berkuasa daripada aku dan aku tidak layak membawa kasut-Nya. Ia akan membaptiskan kamu dengan Roh Kudus dan dengan api.</em></strong></p>
+      <p>Si pencoba mencobai Raja yang baru untuk mempertahankan kedudukan-Nya sebagai Anak Allah. Tetapi Dia menjawab dengan perkataan Alkitab, “Manusia ...” (Mat. 4:4), yang menunjukkan bahwa Dia berdiri pada kedudukan manusia untuk menanggulangi musuh. Setan-setan menyebut Yesus sebagai Anak Allah (8:29), tetapi roh-roh jahat tidak mengakui bahwa Yesus datang dalam tubuh daging (1 Yoh. 4:3), karena dengan mengakui Yesus sebagai manusia, mereka menyatakan bahwa mereka sudah kalah. Meskipun setan-setan mengakui Yesus sebagai Anak Allah, Iblis tidak akan membiarkan manusia mempercayai Dia sebagai Anak Allah, karena dengan berbuat demikian, manusia akan beroleh selamat (Yoh. 20:31).</p>
+      <p>Tuhan seolah-olah berkata, “Satan, jangan mencobai Aku supaya mempertahankan kedudukan sebagai Anak Allah. Di sini Aku adalah manusia. ... Satan, Aku tahu bahwa kau tidak takut terhadap Anak Allah, tetapi takut kepada manusia. Manusia pertama yang Allah ciptakan untuk mengalahkanmu dan menggenapkan kehendak-Nya telah kaukalahkan. Karena itu, Allah mengutus Aku sebagai manusia kedua untuk mengalahkanmu. Kini kamu mencobai Aku supaya Aku meninggalkan  kedudukan-Ku sebagai manusia — untuk mempertahankan kedudukan-Ku sebagai Anak Allah. Tetapi ketahuilah, hai Satan, Aku berdiri di sini sebagai manusia.” (Pelajaran-Hayat Matius, hal. 186-187)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>Dalam Matius 3:11 Yohanes seolah-olah mengatakan, “Aku datang membaptis kamu dengan air, untuk menamatkan kamu, menguburmu. Tetapi Dia yang datang setelah aku, lebih berkuasa daripada aku. Ia akan membaptis kamu dengan Roh dan api. ...</p>
+      <p>Kalau kamu bertobat, Ia akan memasukkanmu ke dalam Roh.</p>
+      <p>Tetapi jika kamu memilih menjadi keturunan ular beludak, Ia pasti akan membaptis kamu dalam lautan api. ”</p>
+      <p>Menurut konteks kalimat ini, api di sini bukan api dalam Kisah Para Rasul 2:3, yang berhubungan dengan Roh Kudus, melainkan api yang sama dengan yang disebutkan dalam ayat 10 dan 12, yaitu api dalam lautan api (Why. 20:15), tempat orang yang tidak percaya mengalami kebinasaan kekal. ... Baptisan Tuhan dalam Roh Kudus mengawali Kerajaan Surga, membawa kaum beriman- Nya ke dalam Kerajaan Surga, sedangkan baptisan-Nya dalam api akan mengakhiri Kerajaan Surga, menaruh orang yang tidak percaya ke dalam telaga api. Karena itu, baptisan Tuhan dalam Roh Kudus, yang berdasar pada penebusan-Nya, adalah awal Kerajaan Surga, sedangkan baptisan-Nya dalam api, yang berdasar pada penghakiman-Nya, adalah akhir dari Kerajaan Surga. Jadi, dalam Matius 3:11 ada tiga macam baptisan: baptisan dalam air, baptisan dalam Roh, dan baptisan dalam api. Baptisan dalam air oleh Yohanes memperkenalkan kerajaan surgawi-Nya. Baptisan dalam Roh oleh Tuhan Yesus mewujudkan dan mendirikan Kerajaan Surga pada hari Pentakosta yang akan berlangsung terus sampai perampungannya pada akhir zaman ini. Baptisan dalam api oleh Tuhan, berdasarkan pada penghakiman di takhta putih besar (Why. 20:11-15), akan menyudahi Kerajaan Surga. (Dalam Matius 3:12) orang-orang yang dilambangkan dengan gandum memiliki hayat di batinnya. Tuhan akan membaptis mereka dalam Roh Kudus dan, pada saat terangkat, mereka akan dikumpulkan dalam lumbung-Nya di angkasa. Orang-orang yang dilambangkan dengan sekam, seperti lalang dalam 13:24-30, tidak memiliki hayat. Tuhan akan membaptis mereka dalam api, menaruh mereka ke dalam telaga api.</p>
+      <p>Yesus Sang Raja melakukan dua macam baptisan. ... Permulaan Kerajaan Surga ialah pada hari Pentakosta. Pada hari itu Yesus Sang Raja membaptis kaum beriman dalam Roh Kudus. Oleh baptisan dalam roh, Kerajaan Surga dimulai. Kerajaan Surga akan berakhir dengan penghakiman takhta putih besar. Pada saat itu orang yang tidak percaya akan dihukum dan dibuang ke dalam telaga api. Itu akan menjadi baptisan dalam api. Baptisan api ini akan mengakhiri Kerajaan Surga. (Pelajaran-Hayat Matius, hal. 151- 154)</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

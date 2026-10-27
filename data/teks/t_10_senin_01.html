@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Senin, 7 Desember 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 10</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Flp. 3:10</strong></p>
+      <p class="verse-text"><strong><em>Yang kukehendaki ialah mengenal Dia dan kuasa kebangkitan- Nya dan persekutuan dalam penderitaan-Nya, di mana aku menjadi serupa dengan Dia dalam kematian-Nya.</em></strong></p>
+      <p class="verse-ref"><strong>Yoh. 6:57</strong></p>
+      <p class="verse-text"><strong><em>Sama seperti Bapa yang hidup mengutus Aku dan Aku hidup oleh Bapa, demikian juga siapa saja yang memakan Aku, akan hidup oleh Aku.</em></strong></p>
+      <p>Dalam Filipi 3:10 Paulus berbicara tentang “menjadi serupa ... dalam kematian-Nya.” Istilah ini menunjukkan bahwa Paulus damba mengambil kematian Kristus sebagai cetakan kehidupannya.  Kemustikaan pengenalan akan Kristus, menganggap segala sesuatu rugi, mendapatkan Kristus, ditemukan di dalam Dia, mengenal Dia, mengenal kuasa kebangkitan-Nya, dan mengenal persekutuan dalam penderitaan-Nya semua menghasilkan satu hal—diserupakan kepada kematian Kristus.</p>
+      <p>Paulus senantiasa menempuh kehidupan tersalib, kehidupan di bawah salib, sama seperti yang Kristus lakukan dalam kehidupan insani-Nya. Melalui kehidupan yang dicetak kepada kematian Kristus sedemikian, Paulus mengalami dan menikmati kuasa kebangkitan Kristus. Cetakan kematian Kristus mengacu kepada pengalaman Kristus senantiasa mematikan hayat insani-Nya agar Dia bisa hidup oleh hayat Allah (Yoh. 6:57). ... Melalui menempuh kehidupan tersalib, Dia hidup kepada Allah dan memperhidupkan Dia. Dia selalu mematikan hayat insani-Nya agar hayat ilahi di dalam Dia bisa mengalir keluar (10:10-11, 17). Sewaktu Dia hidup, Dia juga mati—mati kepada ciptaan lama untuk menempuh kehidupan dalam ciptaan baru. (The Conclusion of the New Testament, hal. 3507-3508)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>Kuasa kebangkitan Kristus adalah hayat kebangkitan-Nya, yang telah membangkitkan Dia dari antara orang mati (Ef. 1:19-20).</p>
+      <p>Realitas dari kuasa kebangkitan Kristus adalah Roh itu (Rm. 1:4).</p>
+      <p>Untuk mengalami kuasa kebangkitan Kristus, kita perlu menempuh kehidupan tersalib, seperti yang Ia lakukan.</p>
+      <p>Diserupakannya kita dengan kematian-Nya memberikan landasan bagi kuasa kebangkitan-Nya untuk bangkit, agar hayat ilahi-Nya dapat diekspresikan di dalam kita. ... Kuasa kebangkitan Kristus adalah untuk menghasilkan dan membangun Tubuh. Jika kita mengesampingkan ego kita sendiri dan tetap berada di bawah kematian salib, kita akan menikmati kuasa kebangkitan. Dengan spontan, kuasa kebangkitan yang kita alami akan menghasilkan Tubuh.</p>
+      <p>Istilah “persekutuan dalam penderitaan-Nya” dalam Filipi 3:10 mengacu kepada partisipasi dalam penderitaan Kristus (Mat. 20:22-23: Kol. 1:24), suatu kondisi yang diperlukan untuk mengalami kuasa kebangkitan-Nya (2 Tim. 2:11) melalui diserupakan kepada kematian-Nya. ... Pada Kristus, penderitaan dan kematian datang terlebih dahulu, diikuti oleh kebangkitan, pada kita, kuasa kebangkitan-Nya datang terlebih dahulu, diikuti oleh berbagian dalam penderitaan-Nya dan penyerupaan kepada kematian-Nya. Kita terlebih dahulu menerima kuasa kebangkitan- Nya: kemudian, melalui kuasa ini, kita dimampukan untuk turut berbagian dalam penderitaan-Nya dan menempuh kehidupan tersalib dalam keserupaan kepada kematian-Nya. Penderitaan- penderitaan seperti itu terutama adalah untuk menghasilkan dan membangun Tubuh Kristus (Kol. 1:24).</p>
+      <p>Penderitaan Kristus terbagi menjadi dua kategori: yang pertama untuk merampungkan penebusan, yang diselesaikan oleh diri Kristus sendiri, dan untuk menghasilkan serta membangun gereja, yang perlu digenapi oleh para rasul dan kaum beriman (ayat 24).</p>
+      <p>Kita tidak bisa berbagian dalam penderitaan Kristus bagi penebusan, tetapi kita harus mengambil bagian dalam penderitaan Kristus untuk menghasilkan dan membangun Tubuh (lihat Why. 1:9, 2 Tim. 2:10: 2 Kor. 1:5-6, 4:12, 6:8-11). Kristus sebagai Anak Domba Allah menderita bagi penebusan (Yoh. 1:29): Kristus sebagai butir gandum menderita bagi reproduksi dan pembangunan (12:24). ... Satu butir gandum tidak merampungkan semua penderitaan yang diperlukan bagi pembangunan Tubuh, sebagai banyak butir, kita harus menderita dengan cara yang sama seperti yang diderita satu butir itu (ayat 24-26). Sebagai banyak butir, kita juga harus kehilangan hayat jiwa kita melalui kematian agar kita bisa menikmati hayat kekal dalam kebangkitan (ayat 25).</p>
+      <p>Ini adalah mengikuti Dia agar kita bisa melayani Dia dan berjalan bersama Dia dengan cara kehilangan hayat jiwa dan hidup dalam kebangkitan (ayat 26). Jalan bagi gereja untuk berdiri dan bertambah bukan dengan kemuliaan insani tetapi oleh kematian salib. (The Conclusion of the New Testament, hal. 3506-3507)</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

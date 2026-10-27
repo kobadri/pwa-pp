@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Jumat, 25 Desember 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 12</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Kid. 6:4</strong></p>
+      <p class="verse-text"><strong><em>Cantik engkau, manisku, seperti kota Tirza, juita seperti Yerusalem, dahsyat seperti bala tentara dengan panji-panjinya.</em></strong></p>
+      <p class="verse-ref"><strong>Ef. 6:12-13</strong></p>
+      <p class="verse-text"><strong><em>Karena perjuangan kita bukanlah melawan darah dan daging, tetapi melawan pemerintah-pemerintah, melawan penguasa- penguasa, melawan kuasa-kuasa dunia yang gelap ini, melawan roh-roh jahat di udara. Sebab itu ambillah seluruh perlengkapan senjata Allah... .</em></strong></p>
+      <p>Akhirnya, sang pencinta menjadi bala tentara yang dahsyat dengan panji-panjinya dan Sulami (Kid. 6:4b, 10b, 13).</p>
+      <p>Ketika kita menjadi satu dengan Allah sebagai tempat tinggal Allah, kita adalah cantik seperti Tirza dan juita seperti Yerusalem di mata Allah. Namun, terhadap musuh, pencinta ini, pemenang ini, dahsyat seperti bala tentara dengan panji-panjinya. Panji-panji menunjukkan satu kesiapan untuk berperang dan juga berarti bahwa kemenangan telah diraih. ... Ketika ia menjadi cantik seperti bulan dan terang seperti matahari, ia juga dahsyat seperti bala tentara dengan panji-panjinya (ayat 10).</p>
+      <p>Ketika ia menjadi kebun, ia tidak lebih dari sebuah kebun, tetapi ketika ia menjadi Tirza dan Yerusalem, sesuatu dibangun untuk memperlihatkan kecantikan Allah dan kemanisan Allah. Pada saat itu, musuh gemetar karena gadis desa yang kecil ini telah menjadi bala tentara dengan panji-panjinya. Bala tentara yang dahsyat menandakan bahwa para pemenang Tuhan ini menggentarkan musuh Allah, Satan, dan menjadi dahsyat di mata umat Allah. Bala tentara berperang bagi Kerajaan Allah dalam kemerosotan umat Allah untuk menjadi para pemenang yang menjawab panggilan Tuhan (Why. 2:7, 11, 17, 26, 3:5, 12, 21). (Pengkajian-Kristalisasi Kidung Agung, hal. 139-141)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>(Dalam Kidung Agung 6:4) Tuhan memandang kaum beriman dari surga, dari dalam tempat kudus. Jadi, ini adalah sesuatu yang terjadi dari balik tabir.</p>
+      <p>Tirza adalah kota tempat berdirinya istana (1 Raj. 14:17).</p>
+      <p>Yerusalem adalah kota Raja besar. Tirza melambangkan tempat kudus surgawi, tempat kediaman Allah. Yerusalem melambangkan Yerusalem surgawi. Tuhan meneliti sifat dan hayat surgawi kita di dalam tempat kudus. Di Yerusalem itu segala sesuatu elok, dan di Tirza segala sesuatu cantik, karena keduanya merupakan ciptaan baru Allah. Kaum beriman hari ini telah menampilkan kecantikan dan keelokan tempat kudus yang akan datang.</p>
+      <p>Senjata-senjata adalah hal yang paling penting bagi pasukan dalam peperangan, sedangkan panji adalah hal yang paling diperlukan dalam kemenangan. ... Panji terbentang menandakan kemuliaan kemenangan. Ayat ini menunjukkan bahwa sang dara itu cantik dan elok di hadapan Tuhan, kokoh seperti kota surgawi, dan tenang seperti tempat kudus. Pada saat yang sama, dia menunjukkan kemuliaan kemenangannya di hadapan musuh dan dunia. Kehidupan di balik tabir tidak hanya merupakan kehidupan di hadapan Tuhan, tetapi kehidupan di depan musuh, sebab langit tempat kediaman kaum beriman tinggal adalah langit yang diserang musuh. Allah tidak menghendaki kaum beriman-Nya hanya mempunyai kecantikan surgawi, tanpa memiliki sifat peperangan. Peperangan surgawi ini tak pernah hilang dari ingatan Tuhan.</p>
+      <p>Kaum beriman harus menarik dan juga dahsyat pada saat yang sama. Kaum beriman hari ini telah kehilangan daya tarik mereka di hadapan Tuhan, dan mereka telah kehilangan kedahsyatan mereka di hadapan musuh dan dunia. ... Alkitab sering menyebutkan kedahsyatan Tuhan: Dia dahsyat karena Dia kudus. Kalau kita mempertahankan kekudusan dan kemenangan kita, kita akan melihat musuh mundur dan dunia tak berani maju. Tetapi kaum beriman hari ini telah mengorbankan kedahsyatan mereka, sehingga manusia maupun Iblis tidak lagi takut kepada mereka.</p>
+      <p>“Dahsyat seperti bala tentara dengan panji-panjinya.” Tidak saja dia memiliki masa depan yang penuh pengharapan, dan kehidupan yang mutlak surgawi, tetapi dia adalah pemenang yang senantiasa merayakan kemenangannya. Dia “dahsyat seperti bala tentara dengan panji-panjinya.” Dia berjalan dari kemenangan kepada kemenangan. Apakah Anda mengenal orang seperti itu?</p>
+      <p>Sudahkah Anda melihatnya? (CWWN, vol. 23, “The Song of Songs,” hal. 96-97, 101)</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

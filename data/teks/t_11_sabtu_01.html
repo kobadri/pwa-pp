@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Sabtu, 19 Desember 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 11</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Why. 4:3</strong></p>
+      <p class="verse-text"><strong><em>Dia yang duduk di takhta itu tampaknya bagaikan permata yaspis....</em></strong></p>
+      <p class="verse-ref"><strong>Why. 21:11</strong></p>
+      <p class="verse-text"><strong><em>.. Cahayanya sama seperti permata yang paling indah, bagaikan permata yaspis, jernih seperti kristal.</em></strong></p>
+      <p class="verse-ref"><strong>Why. 21:18-19</strong></p>
+      <p class="verse-text"><strong><em>Tembok itu terbuat dari permata yaspis: dan kota itu sendiri dari emas murni. ... Dasar-dasar tembok kota itu dihiasi dengan segala jenis permata. Dasar yang pertama batu yaspis... .</em></strong></p>
+      <p>Sekarang kita tiba pada lambang yang terakhir, rampung, dan paling mencolok dalam Perjanjian Baru—permata yaspis dan batu- batu permata lainnya. ... Pada akhirnya semua orang beriman akan ditransformasi menjadi batu-batu permata. Secara sifat, kita adalah tanah liat. Tetapi sejak kita dilahirkan kembali, kita mulai ditransformasi.</p>
+      <p>Permata yaspis melambangkan penampilan Allah yang bersinar dengan kemuliaan Allah sebagai terang Yerusalem Baru bagi ekspresi Allah. Dalam Wahyu 4:3 kita dengan jelas diberi tahu bahwa Allah yang duduk di atas takhta terlihat bagaikan permata yaspis yang, menurut 21:11, adalah “permata yang paling indah ... jernih seperti kristal.” Warnanya pastilah hijau gelap, yang menandakan hayat dalam kelimpahannya. Permata yaspis di sini, seperti yang ditunjukkan oleh 21:11, melambangkan kemuliaan Allah yang disampaikan dalam hayat-Nya yang kaya (Yoh. 17:22, 2). Ini adalah penampilan Allah, yang juga adalah penampilan Yerusalem Baru. Tembok dan fondasi pertama kota itu dibangun oleh permata ini (Why. 21:18-19). (The Conclusion of the New Testament, hal. 1231)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>Karena permata yaspis adalah penampilan Allah, ekspresi-Nya, dan karena kita akan ditransformasi menjadi permata yaspis, ini berarti kita akan menjadi ekspresi korporat dari Allah Tritunggal. ...</p>
+      <p>Seluruh kota itu akan memiliki penampilan Allah, ekspresi Allah.</p>
+      <p>Ini sesuai dengan firman dalam 1 Yohanes 3:2: “Kita tahu bahwa apabila Kristus dinyatakan, kita akan menjadi sama seperti Dia, sebab kita akan melihat Dia dalam keadaan-Nya yang sebenarnya.” Allah dan kaum beriman akan memiliki penampilan yang sama —penampilan permata yaspis. Ini akan menjadi penggenapan akhir dari Kejadian 1:26, sebab ini akan menjadi ekspresi korporat yang luar biasa dari Allah Tritunggal.</p>
+      <p>Dalam Wahyu 21:19 dan 20 kaum beriman dilambangkan oleh sebelas batu permata lainnya selain permata yaspis (yang) melambangkan kekayaan dari keindahan Kristus dalam berbagai aspeknya bagi fondasi tempat kediaman kekal Allah. Kristus adalah batu fondasi bangunan Allah dalam kekekalan, dan semua batu permata itu adalah berbagai aspek dari kekayaan Kristus sebagai fondasinya.</p>
+      <p>Warna-warna dari batu-batu permata dalam 21:19 dan 20 memberi penampilan pelangi. Ini menandakan bahwa Yerusalem Baru dibangun dan dijamin oleh kesetiaan Allah dalam memegang perjanjian-Nya (Kej. 9:8-17). Karena fondasi itu dibangun di atas kesetiaan yang dengannya Allah memegang perjanjian-Nya, ini dapat dipercaya dan dapat diandalkan. Karena itu, fondasi Yerusalem Baru akan menjadi suatu pelangi kekal yang menjamin kesetiaan Allah. ... Kesetiaan Allah adalah fondasi yang pasti yang padanya Yerusalem Baru dibangun. (The Conclusion of the New Testament, hal. 1231-1232) IWahyu 21:19-20) memuat urutan nama kedua belas batu permata, yang adalah kedua belas rasul Anak Domba itu, masing- masing dilambangkan dengan sebuah batu permata. Petrus, rasul pertama dari kedua belas rasul, semula bersama Simon. Ketika Simon dibawa kepada Tuhan, Tuhan mengubah namanya menjadi Petrus, yang berarti “batu” (Yoh. 1:42). Kelak Tuhan menyebutnya dengan nama ini ketika Dia berbicara tentang pembangunan gereja-Nya (Mat. 16:18). ... Semua rasul diciptakan sebagai tanah liat, tetapi mereka telah dilahirkan kembali dan ditransformasi menjadi batu-batu permata bagi bangunan kekal Allah. Setiap orang beriman perlu dilahirkan kembali dan ditransformasi, agar dapat menjadi bagian dari Yerusalem Baru.</p>
+      <p>Lapis pertama dari fondasi tembok kota itu, sama seperti seluruh tembok Yerusalem Baru, dibangun dengan permata yaspis. Ini menunjukkan bahwa bahan utama dalam pembangunan kota kudus itu adalah permata yaspis. Karena permata yaspis melambangkan Allah yang diekspresikan dalam kemuliaan-Nya yang dapat ditransmisikan, maka fungsi utama kota kudus itu adalah mengekspresikan Allah dengan mengemban kemuliaan-Nya (Why. 21:11). (Pelajaran-Hayat Wahyu, hal. 992)</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>

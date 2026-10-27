@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyegaran Pagi - FKKP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div>
+                <div class="header-title">Penyegaran Pagi - FKKP</div>
+                <div class="header-subtitle" id="current-category-label">Kaum Beriman (1)</div>
+            </div>
+            <button id="menu-btn" class="menu-btn">&#9776;</button>
+        </header>
+        
+        <main id="main-content">
+            <div class="hero-section">
+                <div class="hero-text-overlay">Penyegaran Pagi</div>
+            </div>
+            <div class="date-section">
+                <h2 id="current-date-text"></h2>
+                <p>Saatnya membaca Firman Tuhan</p>
+            </div>
+            <div class="menu-actions">
+                <button class="menu-action-btn" id="btn-hari-ini">
+                    <span class="btn-left"><span class="icon">&#128197;</span> Hari Ini</span>
+                    <span class="arrow">&rsaquo;</span>
+                </button>
+                <button class="menu-action-btn" id="btn-pekan-ini">
+                    <span class="btn-left"><span class="icon">&#128198;</span> Pekan Ini</span>
+                    <span class="arrow">&rsaquo;</span>
+                </button>
+                <button class="menu-action-btn" id="btn-kaum-beriman">
+                    <span class="btn-left"><span class="icon">&#128214;</span> Kaum Beriman (1)</span>
+                    <span class="arrow">&rsaquo;</span>
+                </button>
+            </div>
+        </main>
+        <footer class="app-footer">
+            Penyegaran Pagi - FKKP
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

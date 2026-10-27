@@ -1,0 +1,16 @@
+{
+  "name": "Penyegaran Pagi",
+  "short_name": "PenyegaranPagi",
+  "description": "Pesan Harian Jemaat - Teks, Audio MP3, dan Video",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "g_01_garis_besar_01.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ]
+}

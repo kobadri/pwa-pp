@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Penyegaran Pagi</title>
+    <style>
+        body { color: #000000; }
+        h3 { margin-bottom: 5px; color: #000000; }
+        .date-line { margin-bottom: 15px; border-bottom: 3px solid #8c6239; padding-bottom: 8px; font-weight: bold; color: #000000; }
+        
+        /* Tema Tradisional Jawa (Batik Sogan & Kayu Jati Emas) */
+        .toggle-header {
+            font-size: 14pt;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 16px;
+            background-color: #d1fae5;(135deg, #d1fae5 0%, #2d1a0a 100%);
+            border: 1px solid #8c6239;
+            border-left: 6px solid #d4af37;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(74, 44, 17, 0.3);
+            transition: all 0.2s;
+        }
+        .toggle-header:hover {
+            background-color: #d1fae5;(135deg, #5c3d2e 0%, #3d261a 100%);
+            box-shadow: 0 4px 8px rgba(74, 44, 17, 0.4);
+        }
+        .arrow {
+            font-size: 12pt;
+            color: #000000;
+            transition: transform 0.3s;
+        }
+        .toggle-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 3000px;
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .pinned-section.collapsed .toggle-content {
+            max-height: 0;
+            margin-top: 0;
+        }
+        .pinned-section.collapsed .arrow {
+            transform: rotate(-90deg);
+        }
+
+        .verse-ref { font-weight: bold; margin-bottom: 4px; color: #000000; }
+        .verse-text { margin-bottom: 12px; text-align: justify; }
+        p { margin-bottom: 12px; text-align: justify; }
+    </style>
+    <script>
+        function toggleSection(element) {
+            const parent = element.closest('.pinned-section');
+            parent.classList.toggle('collapsed');
+        }
+    </script>
+</head>
+<body>
+    <div class=\"mobile-container\">
+  <h3 style="text-align: right;">📍 Penyegaran Pagi</h3>
+
+  <div class="date-line" style="text-align: right;">Selasa, 6 Oktober 2026</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.95em; color: #000000; margin-top: 2px;">Kaum Beriman (1)</div>
+<div style="text-align: right; font-weight: bold; font-size: 0.9em; color: #000000; margin-top: 1px;">Pekan ke 01</div>
+
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Rawatan Pagi <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p class="verse-ref"><strong>Rm. 12:2</strong></p>
+      <p class="verse-text"><strong><em>Janganlah kamu menjadi serupa dengan dunia ini, tetapi berubahlah oleh pembaruan budimu, sehingga kamu dapat membedakan mana kehendak Allah: Apa yang baik, yang berkenan kepada-Nya dan sempurna.</em></strong></p>
+      <p class="verse-ref"><strong>Ef. 4:23</strong></p>
+      <p class="verse-text"><strong><em>Supaya kamu dibarui di dalam roh dan pikiranmu.</em></strong></p>
+      <p>Kita tidak boleh menjadi serupa dengan dunia ini. Ini berarti bahwa kita tidak seharusnya mengikuti mode. Sebaliknya, kita harus ditransformasi oleh pembaruan pikiran. ... Pembaruan yang diajarkan Kitab Suci adalah pembaruan pikiran, ini adalah perkara yang mutlak berhubungan dengan pikiran. Pikiran adalah mentalitas, filosofi, konsepsi agama, pandangan kita terhadap orang-orang dan benda-benda, dan lain-lain. Kita perlu diperbarui terutama di dalam pikiran kita.</p>
+      <p>Efesus 4:23 berkata, “Supaya kamu dibaharui di dalam roh dan pikiranmu (roh pikiran, li)” Ayat sebelumnya mengatakan menanggalkan manusia lama (ayat 22), ayat sesudahnya mengatakan tentang mengenakan manusia baru (ayat 24). ... Roh pikiran kita adalah roh yang telah dilahirkan kembali yang dibaurkan dengan Roh Allah yang menyebar ke dalam pikiran kita untuk mengendalikannya. Dengan cara ini, pikiran kita dibarui.</p>
+      <p>Lagi pula, Roma 8:6 berkata, “... Tetapi pikiran yang diletakkan di atas roh adalah hayat dan damai sejahtera” (T.). Ini juga memperlihatkan kepada kita pentingnya pikiran kita. Pikiran kita hanya dapat diperbarui melalui kita meletakkan pikiran itu di atas roh. (Aspek Organik Keselamatan Allah, hal. 53-54)</p>
+    </div>
+  </div>
+  <div class="pinned-section">
+    <h4 class="toggle-header" onclick="toggleSection(this)">📍 📍 Pembacaan Hari Ini <span class="arrow">▼</span></h4>
+    <div class="toggle-content">
+      <p>Bukan hanya demikian, Perjanjian Baru mengajar kita untuk ya menaruh pikiran dan perasaan kita yang juga terdapat dalam Kristus Yesus (Flp. 2:5). Hal ini sama dengan menerima pikiran Kristus Yesus sebagai pikiran kita. Melalui kelahiran kembali, kita memiliki hayat Allah, melalui pengudusan, kita berbagian dalam sifat Allah, dan melalui pembaruan pikiran kita diubah.</p>
+      <p>Cara pembaruan terletak dalam doa dan</p>
+    </div>
+  </div>
+    </div>
+</body>
+</html>
